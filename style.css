@@ -565,6 +565,16 @@ section {
     color: var(--main-color);
 }
 
+.footer .credit span a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.footer .credit span a:hover {
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
 /* Media Queries */
 
 @media (max-width:991px) {
